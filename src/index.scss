@@ -10,25 +10,27 @@
 
 body {
   margin: 0;
-  font-family: system-ui;
+  font-family: "Inter";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e7f6ff;
 }
 
+* {
+  font-family: "Inter";
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
 .wrapper {
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
   border-radius: 20px;
   max-width: 1080px;
   margin: 50px auto;
-}
-
-.header {
-  border-bottom: 1px solid #eaeaea;
-  img {
-    margin-right: 15px;
-  }
 }
 
 .content {
@@ -41,25 +43,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.card {
-  border: 1 px solid #f3f3f3;
-  padding: 30px;
-  width: 220px;
-  box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
-  border-radius: 40px;
-  .cardDescription {
-    margin-bottom: 15px;
-    font-weight: 400;
-    font-size: 14px;
-  }
-  .price {
-    margin-bottom: 5px;
-    font-size: 13px;
-    text-transform: uppercase;
-    opacity: 0.5;
-  }
 }
 
 .button {

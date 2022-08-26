@@ -1,0 +1,34 @@
+.cart {
+  border: 1px solid #f3f3f3;
+  padding: 30px;
+  width: 220px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2 ease-in-out;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.094);
+    transform: translateY(-5px);
+  }
+  .cartDescription {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .button {
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 32px;
+    width: 32px;
+    cursor: point;
+  }
+
+  .price {
+    margin-bottom: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+}
