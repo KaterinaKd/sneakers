@@ -22,7 +22,7 @@ function App() {
         <FilterBlock />
 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/main" element={<Home />} />
 
           <Route path="*" element={<Home />} />
         </Routes>
