@@ -24,7 +24,7 @@ const FilterBlock = () => {
       </h1>
 
       <div className={classes.searchBlock}>
-        <img src="/img/search.svg" alt="Search" />
+        <img src="img/search.svg" alt="Search" />
 
         <input
           onChange={changeSearchInput}
@@ -36,7 +36,7 @@ const FilterBlock = () => {
           <img
             onClick={clearSearchInput}
             className="remove"
-            src="/img/btn-remove.svg"
+            src="img/btn-remove.svg"
             alt="remove"
           />
         )}

@@ -16,7 +16,7 @@ const Drawer = ({ handleOpenDrawer }) => {
             <img
               onClick={handleOpenDrawer}
               className="classes.removeBtn"
-              src="/img/btn-remove.svg"
+              src="img/btn-remove.svg"
               alt="Remove"
             />
           </div>
@@ -39,7 +39,7 @@ const Drawer = ({ handleOpenDrawer }) => {
 
                 <img
                   className={classes.removeBtn}
-                  src="/img/btn-remove.svg"
+                  src="img/btn-remove.svg"
                   onClick={() => {
                     onRemoveFromCart(obj.id);
                   }}

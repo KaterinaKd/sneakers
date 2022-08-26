@@ -39,7 +39,7 @@ const Cart = ({
           <b>{price} грн.</b>
         </div>
         <button className={classes.button} onClick={onClickPlus}>
-          <img src={isAdded ? "/img/plus.svg" : "/img/unPlus.svg"} alt="Plus" />
+          <img src={isAdded ? "img/plus.svg" : "img/unPlus.svg"} alt="Plus" />
         </button>
       </div>
     </div>

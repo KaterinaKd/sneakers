@@ -7,7 +7,7 @@ const Header = ({ onClickCart }) => {
   return (
     <header className="d-flex justify-between align-center p-40">
       <div className={classes.header}>
-        <img height={40} width={40} src="/img/logo.png" alt="logo" />
+        <img height={40} width={40} src="img/logo.png" alt="logo" />
         <div>
           <h3 className="text-uppercase">React Sneakers</h3>
           <p>Магазин лучших кроссовок</p>
@@ -20,7 +20,7 @@ const Header = ({ onClickCart }) => {
             className="mr-10"
             height={18}
             width={18}
-            src="/img/cart.svg"
+            src="img/cart.svg"
             alt="cart"
           />
           <span>
@@ -30,7 +30,7 @@ const Header = ({ onClickCart }) => {
           </span>
         </li>
         <li>
-          <img src="/img/user.svg" alt="user" />
+          <img src="img/user.svg" alt="user" />
         </li>
       </ul>
     </header>
